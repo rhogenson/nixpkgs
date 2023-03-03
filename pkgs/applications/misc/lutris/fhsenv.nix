@@ -116,7 +116,7 @@ in buildFHSUserEnv {
     libselinux
 
     # Winetricks
-    fribidi
+    winetricks
   ] ++ xorgDeps pkgs
     ++ extraLibraries pkgs;
 
